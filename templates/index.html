@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <span>Hello niger</span>
+    <h1 id="app"></h1>
+    <input id="chat-message-submit" type="button" value="Send">
+</body>
+</html>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+<script>
+    var websocket = new WebSocket('ws://127.0.0.1:8000/ws/');
+</script>
